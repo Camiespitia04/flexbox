@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon img{ 
+    height: 2em;
+    width: 2em;
+    padding: 1em;
+}
+.logo img{
+    height: 6em;
+    width: 6em;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button{
+    margin-left: 1em; 
+}
+.img-span{
+    display: inline-block;
+}
+.img-span img{
+    width: 1em;
+    height: 1m;
+}
+
+.banner img{
+    height: 20em;
+    width: 100%;
+    margin-top: 2em;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    height:4em;
+    width: 4em;
+}
+
+.seccion-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: row;
+}
+
+.GM{
+    margin: 2em;
+}
+
+.GM p{
+    text-align: center;
+}

@@ -1,0 +1,118 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center ;
+
+}
+.logo img{
+    width: 8em;
+    height: 8em;
+    display: inline-block;
+}
+
+.icon img{
+    width: 3em;
+    height: 2em;
+    padding-left: 3em;
+}
+
+.search input{
+width: 40em;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.descripcion{
+    width: 50%;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.descripcion h1{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+.search-curso{
+    margin-bottom: 2em;
+}
+.search-curso input{
+    width: 50%;
+    height: 2em;
+}
+.search-curso button{
+    width: 16em;
+    height: 2em;
+    border: none;
+    margin: 1em;
+    background-color: antiquewhite;
+    font-weight: 700;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    width: 60%;
+}
+
+.curso{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.curso .img{
+    width: 10%;
+}
+.curso .img img{
+    width: 3em;
+    height: 3em;
+}
+
+.titulo span{
+    display: block;
+}
+
+.precio{
+    position:relative;
+    top: .6em;
+    margin-left:1em ;
+}
+.precio-r{
+    font-weight: 700;
+    font-size: 2em;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+
+}
+.btn button{
+    width: 16em;
+    height: 3em;
+    border: none;
+    margin: 1em;
+    background-color: antiquewhite;
+    font-weight: 700;
+}
+
+.info h5{
+    font-size: 1em;
+}
